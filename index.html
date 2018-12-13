@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+.rndd{
+    border-radius: 5px;
+    padding: 10px;
+}
+#calculator {
+    background-color: #eeeeee;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+    position:relative; 
+    top: 50%;
+    transform: translateY(-50%);
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto; 
+    width:65%;
+}
+#screen {
+    background-color: #666666;
+    display: inline-block;
+    color: #fff;
+    margin:0;
+    flex:2;
+}
+#clear{
+    display: inline-block;
+    background-color: #e6e6e6;
+    margin:0;
+    flex:1;
+    margin-left: 10px;
+}
+.lineBreak {
+    width:100%;
+}
+.btn {
+    flex: 1;
+    display: inline-block;
+    background-color: #e6e6e6;
+    margin: 10px 0 5px 10;
+}
+</style>
+
+</head>
+<body>
+    <div id='calculator' class='rndd'>
+        <div id='screen' class='rndd'>
+            test
+        </div>
+        <div id='clear' class='rndd' >
+            C
+        </div>
+        <div class='lineBreak'></div>
+        <div class='btn rndd' style='margin-left:0' id="1">
+            1
+        </div>
+        <div class='btn rndd' id="2">
+            2
+        </div>
+        <div class='btn rndd'  id="3">
+            3
+        </div>
+        <div class='btn rndd'  id="divide">
+            /
+        </div>
+        <div class='lineBreak'></div>
+        <div class='btn rndd' style='margin-left:0'  id="4">
+            4
+        </div>
+        <div class='btn rndd' id="5">
+            5
+        </div>
+        <div class='btn rndd'  id="6" >
+            6
+        </div>
+        <div class='btn rndd'  id="multiply">
+            *
+        </div>
+        <div class='lineBreak'></div>
+        <div class='btn rndd' style='margin-left:0' id="7">
+            7
+        </div>
+        <div class='btn rndd' id="8">
+            8
+        </div>
+        <div class='btn rndd'  id="9">
+            9
+        </div>
+        <div class='btn rndd' id="minus">
+            -
+        </div>
+        <div class='lineBreak'></div>
+        <div class='btn rndd' style='margin-left:0' id="0">
+            0
+        </div>
+        <div class='btn rndd' id="plus">
+            +
+        </div>
+        <div class='lineBreak'></div>
+        <div class='btn rndd' style='margin-left: 0; background-color: #f93'>
+            =
+        </div>
+        
+    </div>
+</body>
+
+<script src="main.js"></script>
+</html>
